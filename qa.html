@@ -1,1 +1,1142 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <style type="text/css">
+        html {
+            font-size: 16px;
+            font-family: "Open Sans", Helvetica, sans-serif;
+        }
+        body {
+            padding: 50px;
+            max-width: 700px;
+            width: 700px;
+        }
+        .page {
+            overflow: hidden;
+            page-break-after: always;
+            margin-bottom: 250px;
+        }
+        h1 {
+            margin-top: 0.25rem;
+            font-size: 1.5rem;
+        }
+        .row {
+            width: 100%;
+        }
+        .col-3 {
+            width: 25%;
+            float:left;
+        }
+        .col-4 {
+            width: 33.33%;
+            float:left;
+        }
+        .col-12 {
+            width: 100%;
+            float: left;
+        }
+        .param {
+            font-size: 0.875rem;
+            font-weight: normal;
+        }
 
+        .color-blocker, .color-critical, .color-major, .color-high {
+            color: #D0021B;
+        }
+
+        .conditions-header {
+            font-size: 0.875rem;
+            font-weight: bold;
+            padding-bottom: 0.25rem;
+        }
+
+        .conditions-data {
+            font-weight: normal;
+            font-size: 0.875rem;
+        }
+
+        .clearfix::after {
+            display: block;
+            content: "";
+            clear: both;
+        }
+        .data-row {
+            margin-top: 1rem;
+        }
+
+        .table-steps {
+            width: 100%;
+        }
+        .table-steps td {
+            padding: 0.75rem 0;
+            border-bottom: 1px solid #dedede;
+        }
+        .table-steps th {
+            font-size: 0.875rem; text-align: left;
+        }
+        .table-steps p {
+            margin-bottom: 0;
+        }
+        .steps ol, .steps ul {
+            margin-bottom: 0;
+            padding-left: 1.125rem;
+        }
+        .steps li {
+            font-size: 0.875rem;
+        }
+
+        .step-position span {
+            padding: .25rem 0.75rem;
+            display: block;
+            margin-right: .75rem;
+            border-radius: .25rem;
+            color: #636363;
+            background: #f3f3f3;
+        }
+
+        .step-action p {
+            display: none;
+        }
+
+        .step-content p.data {
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .description {
+            font-size: 0.875rem !important;
+            margin-top: 0 !important;
+        }
+        .description p{
+            font-size: 0.875rem !important;
+            margin-top: 0 !important;
+        }
+
+        .table-steps img,
+        .description img,
+        .markdown img {
+            max-width: 100%;
+        }
+
+        .attachments {vertical-align: top;}
+        .attachments .attachment{width:96px;display:inline-block; margin-right: 8px; vertical-align: top}
+        .attachments .attachment-image{width:96px;height:96px;border-radius:6px;background-size:cover !important;}
+        .attachments .attachment-file{width:96px;height:96px;background:#e9e9e9;border-radius:6px;}
+        .attachments .attachment-file .attachment-extension{display:inline-block; text-decoration:none !important;font-weight:500;color:#000; padding-left: 8px; padding-top: 8px; font-size: 0.75rem;}
+        .attachments .attachment .attachment-filename{width:96px;display:block; text-overflow:ellipsis;white-space:nowrap;margin-top:0.5rem;overflow:hidden;text-decoration:none;color:#656565;font-size:0.625rem;}
+        .attachments .attachment a {text-decoration:none !important;border-bottom: 0;}
+    </style>
+    <link rel="stylesheet" href="./PARALECT_test_cases_files/fontawesome.min.css">
+</head>
+<body>
+                                <div class="page">
+    <div>
+        <span style="font-size: 0.75rem; font-weight: 400; color: #686868">
+            PARALECT-2
+                    </span>
+        <h1 style="margin-bottom: 0.25rem;"> Successful registration</h1>
+        <div class="description"><p>Positive scenario for creating a new user account</p></div>
+        <div class="row">
+                                                                                                                                    <div class="col-3">
+                    <h3 style="font-size: 0.875rem;">Status</h3>
+                    <span class="param">
+                                                    Actual
+                                                </span>
+                </div>
+                            <div class="clearfix" style="padding-bottom: 0.75rem;"></div>
+                            <div class="clearfix"></div>
+                <div class="row" style="padding-top: 1rem;">
+                                                        </div>
+                        <div class="clearfix"></div>
+            <div style="padding-top: 1rem;">
+                                            </div>
+            <div class="clearfix"></div>
+                        <div class="clearfix"></div>
+                            <div class="case-steps" style="padding-top: 1rem;">
+                                            <h3 style="font-size:1rem; ">Steps to reproduce</h3>
+                                                    <div class="case-steps-case mt-4">
+                                <div class="steps">
+                                    <table class="table-steps" cellpadding="0" cellspacing="0">
+                                        <tbody><tr>
+                                            <th width="10%">Step</th>
+                                            <th width="30%">Action</th>
+                                            <th width="30%">Input data</th>
+                                            <th width="30%">Expected result</th>
+                                        </tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">1</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Go to registration page <a href="https://someregistrationurl/" target="_blank">https://someregistrationurl</a></p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>Registration page is shown</p></td>
+</tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">2</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Fill email field - "testparalect@gmail.com" and click confirm button</p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"></td>
+</tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">3</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Fill password field "123321" and click confirm button</p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>Info message: "The email was sent to you for confirming and completing the registration"</p></td>
+</tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">4</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Confirm email via link</p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p><strong>Email credentials:</strong></p>
+<ul>
+<li>login - estparalect@gmail.com</li>
+<li>password - AQxMP2</li>
+</ul></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>Info message: "Thanks for registration! Please fill the data in your profile"</p></td>
+</tr>
+                                                                            </tbody></table>
+                                </div>
+                            </div>
+                                                            </div>
+                    </div>
+    </div>
+</div>
+                    <div class="page">
+    <div>
+        <span style="font-size: 0.75rem; font-weight: 400; color: #686868">
+            PARALECT-3
+                    </span>
+        <h1 style="margin-bottom: 0.25rem;"> Registration with invalid email</h1>
+        <div class="description"><p>Registration negative scenario with invalid email</p></div>
+        <div class="row">
+                                                                                                                                    <div class="col-3">
+                    <h3 style="font-size: 0.875rem;">Status</h3>
+                    <span class="param">
+                                                    Actual
+                                                </span>
+                </div>
+                            <div class="clearfix" style="padding-bottom: 0.75rem;"></div>
+                            <div class="clearfix"></div>
+                <div class="row" style="padding-top: 1rem;">
+                                                        </div>
+                        <div class="clearfix"></div>
+            <div style="padding-top: 1rem;">
+                                            </div>
+            <div class="clearfix"></div>
+                        <div class="clearfix"></div>
+                            <div class="case-steps" style="padding-top: 1rem;">
+                                            <h3 style="font-size:1rem; ">Steps to reproduce</h3>
+                                                    <div class="case-steps-case mt-4">
+                                <div class="steps">
+                                    <table class="table-steps" cellpadding="0" cellspacing="0">
+                                        <tbody><tr>
+                                            <th width="10%">Step</th>
+                                            <th width="30%">Action</th>
+                                            <th width="30%">Input data</th>
+                                            <th width="30%">Expected result</th>
+                                        </tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">1</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Go to registration page <a href="https://someregistrationurl/" target="_blank">https://someregistrationurl</a></p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>Registration page is shown</p></td>
+</tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">2</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Fill email field - "testparalect" and click confirm button</p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>Error message “Invalid email”</p></td>
+</tr>
+                                                                            </tbody></table>
+                                </div>
+                            </div>
+                                                            </div>
+                    </div>
+    </div>
+</div>
+                    <div class="page">
+    <div>
+        <span style="font-size: 0.75rem; font-weight: 400; color: #686868">
+            PARALECT-6
+                    </span>
+        <h1 style="margin-bottom: 0.25rem;"> Registration with invalid password</h1>
+        <div class="description"><p>Registration negative scenario with invalid password</p></div>
+        <div class="row">
+                                                                                                                                    <div class="col-3">
+                    <h3 style="font-size: 0.875rem;">Status</h3>
+                    <span class="param">
+                                                    Actual
+                                                </span>
+                </div>
+                            <div class="clearfix" style="padding-bottom: 0.75rem;"></div>
+                            <div class="clearfix"></div>
+                <div class="row" style="padding-top: 1rem;">
+                                                        </div>
+                        <div class="clearfix"></div>
+            <div style="padding-top: 1rem;">
+                                            </div>
+            <div class="clearfix"></div>
+                        <div class="clearfix"></div>
+                            <div class="case-steps" style="padding-top: 1rem;">
+                                            <h3 style="font-size:1rem; ">Steps to reproduce</h3>
+                                                    <div class="case-steps-case mt-4">
+                                <div class="steps">
+                                    <table class="table-steps" cellpadding="0" cellspacing="0">
+                                        <tbody><tr>
+                                            <th width="10%">Step</th>
+                                            <th width="30%">Action</th>
+                                            <th width="30%">Input data</th>
+                                            <th width="30%">Expected result</th>
+                                        </tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">1</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Go to registration page <a href="https://someregistrationurl/" target="_blank">https://someregistrationurl</a></p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>Registration page is shown</p></td>
+</tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">2</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Fill password field - "qwert" and click confirm button</p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>Error message “Invalid password”</p></td>
+</tr>
+                                                                            </tbody></table>
+                                </div>
+                            </div>
+                                                            </div>
+                    </div>
+    </div>
+</div>
+                                        <div class="page">
+    <div>
+        <span style="font-size: 0.75rem; font-weight: 400; color: #686868">
+            PARALECT-7
+                    </span>
+        <h1 style="margin-bottom: 0.25rem;"> Successful filling out the user profile</h1>
+        <div class="description"><p>A positive scenario for filling out a user profile</p></div>
+        <div class="row">
+                                                                                                                                    <div class="col-3">
+                    <h3 style="font-size: 0.875rem;">Status</h3>
+                    <span class="param">
+                                                    Actual
+                                                </span>
+                </div>
+                            <div class="clearfix" style="padding-bottom: 0.75rem;"></div>
+                            <div class="clearfix"></div>
+                <div class="row" style="padding-top: 1rem;">
+                                                        </div>
+                        <div class="clearfix"></div>
+            <div style="padding-top: 1rem;">
+                                            </div>
+            <div class="clearfix"></div>
+                        <div class="clearfix"></div>
+                            <div class="case-steps" style="padding-top: 1rem;">
+                                            <h3 style="font-size:1rem; ">Steps to reproduce</h3>
+                                                    <div class="case-steps-case mt-4">
+                                <div class="steps">
+                                    <table class="table-steps" cellpadding="0" cellspacing="0">
+                                        <tbody><tr>
+                                            <th width="10%">Step</th>
+                                            <th width="30%">Action</th>
+                                            <th width="30%">Input data</th>
+                                            <th width="30%">Expected result</th>
+                                        </tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">1</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Go to page <a href="https://someprofileurl/" target="_blank">https://someprofileurl</a></p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>Page is shown</p></td>
+</tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">2</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Enter "Ivan Ivanov" in the Full name field</p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"></td>
+</tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">3</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Add this photo for Profile picture</p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p><img src="./PARALECT_test_cases_files/kisspng-computer-icons-user-profile-avatar-job-icon-5b521c567f49d7.5742234415321078625214.jpg" alt="" target="_blank" class="md-image"></p></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>The user is allowed to the Payment form</p></td>
+</tr>
+                                                                            </tbody></table>
+                                </div>
+                            </div>
+                                                            </div>
+                    </div>
+    </div>
+</div>
+                    <div class="page">
+    <div>
+        <span style="font-size: 0.75rem; font-weight: 400; color: #686868">
+            PARALECT-9
+                    </span>
+        <h1 style="margin-bottom: 0.25rem;"> Invalid files for Profile picture</h1>
+        <div class="description"><p>A negative scenario for filling profile picture with invalid files</p></div>
+        <div class="row">
+                                                                                                                                    <div class="col-3">
+                    <h3 style="font-size: 0.875rem;">Status</h3>
+                    <span class="param">
+                                                    Actual
+                                                </span>
+                </div>
+                            <div class="clearfix" style="padding-bottom: 0.75rem;"></div>
+                            <div class="clearfix"></div>
+                <div class="row" style="padding-top: 1rem;">
+                                                        </div>
+                        <div class="clearfix"></div>
+            <div style="padding-top: 1rem;">
+                                            </div>
+            <div class="clearfix"></div>
+                        <div class="clearfix"></div>
+                            <div class="case-steps" style="padding-top: 1rem;">
+                                            <h3 style="font-size:1rem; ">Steps to reproduce</h3>
+                                                    <div class="case-steps-case mt-4">
+                                <div class="steps">
+                                    <table class="table-steps" cellpadding="0" cellspacing="0">
+                                        <tbody><tr>
+                                            <th width="10%">Step</th>
+                                            <th width="30%">Action</th>
+                                            <th width="30%">Input data</th>
+                                            <th width="30%">Expected result</th>
+                                        </tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">1</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Go to page <a href="https://someprofileurl/" target="_blank">https://someprofileurl</a></p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>Page is shown</p></td>
+</tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">2</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Add this files alternately for Profile picture:</p>
+<p><br></p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>Error message “Please add the appropriate file for your Profile picture”</p></td>
+</tr>
+    <tr>
+        <td></td>
+        <td colspan="3">
+            <div class="attachments">
+                                    <div class="attachment attachment-724f660a921190ecb3580600278d4eb74db955fc">
+                        <a target="_blank" title="telegram-cloud-photo-size-2-5472142992484711461-y.jpg" href="https://d2cxucsjd6xvsd.cloudfront.net/public/team/fa221ff8e826ea75f7d9ceeb00b1cffa22af80e0/attachment/724f660a921190ecb3580600278d4eb74db955fc/telegram-cloud-photo-size-2-5472142992484711461-y.jpg" style="display: block">
+                                                            <div class="attachment-image" style="background: url(&#39;https://d2cxucsjd6xvsd.cloudfront.net/public/team/fa221ff8e826ea75f7d9ceeb00b1cffa22af80e0/attachment/724f660a921190ecb3580600278d4eb74db955fc/telegram-cloud-photo-size-2-5472142992484711461-y.jpg&#39;);"></div>
+                                                    </a>
+                    </div>
+                                    <div class="attachment attachment-4788a40c2815bafc2db75565571526a432311a45">
+                        <a target="_blank" title="Blossoms - 113004.mp4" href="https://d2cxucsjd6xvsd.cloudfront.net/public/team/fa221ff8e826ea75f7d9ceeb00b1cffa22af80e0/attachment/4788a40c2815bafc2db75565571526a432311a45/Blossoms%20-%20113004.mp4" style="display: block">
+                                                            <div class="attachment-file">
+                                    <span class="attachment-extension">mp4</span>
+                                </div>
+                                                    </a>
+                    </div>
+                            </div>
+        </td>
+    </tr>
+                                                                            </tbody></table>
+                                </div>
+                            </div>
+                                                            </div>
+                    </div>
+    </div>
+</div>
+                    <div class="page">
+    <div>
+        <span style="font-size: 0.75rem; font-weight: 400; color: #686868">
+            PARALECT-8
+                    </span>
+        <h1 style="margin-bottom: 0.25rem;"> Invalid name</h1>
+        <div class="description"><p>A negative scenario for filling profile with invalid name</p></div>
+        <div class="row">
+                                                                                                                                    <div class="col-3">
+                    <h3 style="font-size: 0.875rem;">Status</h3>
+                    <span class="param">
+                                                    Actual
+                                                </span>
+                </div>
+                            <div class="clearfix" style="padding-bottom: 0.75rem;"></div>
+                            <div class="clearfix"></div>
+                <div class="row" style="padding-top: 1rem;">
+                                                        </div>
+                        <div class="clearfix"></div>
+            <div style="padding-top: 1rem;">
+                                            </div>
+            <div class="clearfix"></div>
+                        <div class="clearfix"></div>
+                            <div class="case-steps" style="padding-top: 1rem;">
+                                            <h3 style="font-size:1rem; ">Steps to reproduce</h3>
+                                                    <div class="case-steps-case mt-4">
+                                <div class="steps">
+                                    <table class="table-steps" cellpadding="0" cellspacing="0">
+                                        <tbody><tr>
+                                            <th width="10%">Step</th>
+                                            <th width="30%">Action</th>
+                                            <th width="30%">Input data</th>
+                                            <th width="30%">Expected result</th>
+                                        </tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">1</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Go to page <a href="https://someprofileurl/" target="_blank">https://someprofileurl</a></p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>Page is shown</p></td>
+</tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">2</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Enter "1" in the Full name field and click confirm button</p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>Error message “Invalid Full name”</p></td>
+</tr>
+                                                                            </tbody></table>
+                                </div>
+                            </div>
+                                                            </div>
+                    </div>
+    </div>
+</div>
+                                        <div class="page">
+    <div>
+        <span style="font-size: 0.75rem; font-weight: 400; color: #686868">
+            PARALECT-10
+                    </span>
+        <h1 style="margin-bottom: 0.25rem;"> Successful filling out the credit card data</h1>
+        <div class="description"><p>Positive scenario for filling credit card data</p></div>
+        <div class="row">
+                                                                                                                                    <div class="col-3">
+                    <h3 style="font-size: 0.875rem;">Status</h3>
+                    <span class="param">
+                                                    Actual
+                                                </span>
+                </div>
+                            <div class="clearfix" style="padding-bottom: 0.75rem;"></div>
+                            <div class="clearfix"></div>
+                <div class="row" style="padding-top: 1rem;">
+                                                        </div>
+                        <div class="clearfix"></div>
+            <div style="padding-top: 1rem;">
+                                            </div>
+            <div class="clearfix"></div>
+                        <div class="clearfix"></div>
+                            <div class="case-steps" style="padding-top: 1rem;">
+                                            <h3 style="font-size:1rem; ">Steps to reproduce</h3>
+                                                    <div class="case-steps-case mt-4">
+                                <div class="steps">
+                                    <table class="table-steps" cellpadding="0" cellspacing="0">
+                                        <tbody><tr>
+                                            <th width="10%">Step</th>
+                                            <th width="30%">Action</th>
+                                            <th width="30%">Input data</th>
+                                            <th width="30%">Expected result</th>
+                                        </tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">1</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Fill the data in Payment fields and click confirm button</p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><ul>
+<li>Card Number - 6643 5648 2394 6389</li>
+<li>Card Holder Name - IVAN IVANOV</li>
+<li>Expiry date - 05/24</li>
+<li>CVC - 892</li>
+</ul></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>Info message: "Thanks for joining us! The 1st month is free. Please click Next and start filling in the data for your account. Or you can click Cancel button and cancel your subscription."</p></td>
+</tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">2</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Click Next Button</p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>User allowed to Profile settings</p></td>
+</tr>
+                                                                            </tbody></table>
+                                </div>
+                            </div>
+                                                            </div>
+                    </div>
+    </div>
+</div>
+                    <div class="page">
+    <div>
+        <span style="font-size: 0.75rem; font-weight: 400; color: #686868">
+            PARALECT-11
+                    </span>
+        <h1 style="margin-bottom: 0.25rem;"> Invalid credit card data</h1>
+        <div class="description"><p>Negative scenario for filling profile with invalid credit card data</p></div>
+        <div class="row">
+                                                                                                                                    <div class="col-3">
+                    <h3 style="font-size: 0.875rem;">Status</h3>
+                    <span class="param">
+                                                    Actual
+                                                </span>
+                </div>
+                            <div class="clearfix" style="padding-bottom: 0.75rem;"></div>
+                            <div class="clearfix"></div>
+                <div class="row" style="padding-top: 1rem;">
+                                                        </div>
+                        <div class="clearfix"></div>
+            <div style="padding-top: 1rem;">
+                                            </div>
+            <div class="clearfix"></div>
+                        <div class="clearfix"></div>
+                            <div class="case-steps" style="padding-top: 1rem;">
+                                            <h3 style="font-size:1rem; ">Steps to reproduce</h3>
+                                                    <div class="case-steps-case mt-4">
+                                <div class="steps">
+                                    <table class="table-steps" cellpadding="0" cellspacing="0">
+                                        <tbody><tr>
+                                            <th width="10%">Step</th>
+                                            <th width="30%">Action</th>
+                                            <th width="30%">Input data</th>
+                                            <th width="30%">Expected result</th>
+                                        </tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">1</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Go to page <a href="https://someprofileurl/" target="_blank">https://someprofileurl</a></p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>Page is shown</p></td>
+</tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">2</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Fill the data in Payment fields and click confirm button</p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><ul>
+<li>Card Number - 6643 5648 2394 6389</li>
+<li>Card Holder Name - IVAN IVANOV</li>
+<li>Expiry date - 05/24</li>
+<li>CVC - 89</li>
+</ul></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>Error message “Invalid credit card data”</p></td>
+</tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">3</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Fill the data in Payment fields and click confirm button</p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><ul>
+<li>Card Number - 6643 5648 2394 6389</li>
+<li>Card Holder Name - IVAN IVANOV</li>
+<li>Expiry date - 05</li>
+<li>CVC - 892</li>
+</ul></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>Error message “Invalid credit card data”</p></td>
+</tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">4</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Fill the data in Payment fields and click confirm button</p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><ul>
+<li>Card Number - 6643 5648 2394 6389</li>
+<li>Card Holder Name - IVAN </li>
+<li>Expiry date - 05/24</li>
+<li>CVC - 892</li>
+</ul></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>Error message “Invalid credit card data”</p></td>
+</tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">5</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Fill the data in Payment fields and click confirm button</p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><ul>
+<li>Card Number - 6643</li>
+<li>Card Holder Name - IVAN IVANOV</li>
+<li>Expiry date - 05/24</li>
+<li>CVC - 892</li>
+</ul></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>Error message “Invalid credit card data”</p></td>
+</tr>
+                                                                            </tbody></table>
+                                </div>
+                            </div>
+                                                            </div>
+                    </div>
+    </div>
+</div>
+                    <div class="page">
+    <div>
+        <span style="font-size: 0.75rem; font-weight: 400; color: #686868">
+            PARALECT-12
+                    </span>
+        <h1 style="margin-bottom: 0.25rem;"> Сancel the subscription after successful filling out the credit card data</h1>
+        <div class="description"><p>Scenario for cancel the subscription after filling credit card data</p></div>
+        <div class="row">
+                                                                                                                                    <div class="col-3">
+                    <h3 style="font-size: 0.875rem;">Status</h3>
+                    <span class="param">
+                                                    Actual
+                                                </span>
+                </div>
+                            <div class="clearfix" style="padding-bottom: 0.75rem;"></div>
+                            <div class="clearfix"></div>
+                <div class="row" style="padding-top: 1rem;">
+                                                        </div>
+                        <div class="clearfix"></div>
+            <div style="padding-top: 1rem;">
+                                            </div>
+            <div class="clearfix"></div>
+                        <div class="clearfix"></div>
+                            <div class="case-steps" style="padding-top: 1rem;">
+                                            <h3 style="font-size:1rem; ">Steps to reproduce</h3>
+                                                    <div class="case-steps-case mt-4">
+                                <div class="steps">
+                                    <table class="table-steps" cellpadding="0" cellspacing="0">
+                                        <tbody><tr>
+                                            <th width="10%">Step</th>
+                                            <th width="30%">Action</th>
+                                            <th width="30%">Input data</th>
+                                            <th width="30%">Expected result</th>
+                                        </tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">1</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Fill the data in Payment fields and click confirm button</p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><ul>
+<li>Card Number - 6643 5648 2394 6389</li>
+<li>Card Holder Name - IVAN IVANOV</li>
+<li>Expiry date - 05/24</li>
+<li>CVC - 892</li>
+</ul></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>Info message: "Thanks for joining us! The 1st month is free. Please click Next and start filling in the data for your account. Or you can click Cancel button and cancel your subscription."</p></td>
+</tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">2</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Click Cancel the subscription button</p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>Info message "So sorry you’re leaving us! Please come back if you change your mind."</p></td>
+</tr>
+                                                                            </tbody></table>
+                                </div>
+                            </div>
+                                                            </div>
+                    </div>
+    </div>
+</div>
+                                        <div class="page">
+    <div>
+        <span style="font-size: 0.75rem; font-weight: 400; color: #686868">
+            PARALECT-13
+                    </span>
+        <h1 style="margin-bottom: 0.25rem;"> Successful choice of genre</h1>
+        <div class="description"><p>Positive scenario for choice of genre</p></div>
+        <div class="row">
+                                                                                                                                    <div class="col-3">
+                    <h3 style="font-size: 0.875rem;">Status</h3>
+                    <span class="param">
+                                                    Actual
+                                                </span>
+                </div>
+                            <div class="clearfix" style="padding-bottom: 0.75rem;"></div>
+                            <div class="clearfix"></div>
+                <div class="row" style="padding-top: 1rem;">
+                                                        </div>
+                        <div class="clearfix"></div>
+            <div style="padding-top: 1rem;">
+                                            </div>
+            <div class="clearfix"></div>
+                        <div class="clearfix"></div>
+                            <div class="case-steps" style="padding-top: 1rem;">
+                                            <h3 style="font-size:1rem; ">Steps to reproduce</h3>
+                                                    <div class="case-steps-case mt-4">
+                                <div class="steps">
+                                    <table class="table-steps" cellpadding="0" cellspacing="0">
+                                        <tbody><tr>
+                                            <th width="10%">Step</th>
+                                            <th width="30%">Action</th>
+                                            <th width="30%">Input data</th>
+                                            <th width="30%">Expected result</th>
+                                        </tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">1</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Go to page <a href="https://someprofileurl/preferences" target="_blank">https://someprofileurl/preferences</a></p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>Page is shown</p></td>
+</tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">2</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Сhoose 4 preferences and click Confirm button</p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>User allowed to Favourites</p></td>
+</tr>
+                                                                            </tbody></table>
+                                </div>
+                            </div>
+                                                            </div>
+                    </div>
+    </div>
+</div>
+                    <div class="page">
+    <div>
+        <span style="font-size: 0.75rem; font-weight: 400; color: #686868">
+            PARALECT-14
+                    </span>
+        <h1 style="margin-bottom: 0.25rem;"> Unsuccessful choice of genre</h1>
+        <div class="description"><p>Negative scenario for choice of genre</p></div>
+        <div class="row">
+                                                                                                                                    <div class="col-3">
+                    <h3 style="font-size: 0.875rem;">Status</h3>
+                    <span class="param">
+                                                    Actual
+                                                </span>
+                </div>
+                            <div class="clearfix" style="padding-bottom: 0.75rem;"></div>
+                            <div class="clearfix"></div>
+                <div class="row" style="padding-top: 1rem;">
+                                                        </div>
+                        <div class="clearfix"></div>
+            <div style="padding-top: 1rem;">
+                                            </div>
+            <div class="clearfix"></div>
+                        <div class="clearfix"></div>
+                            <div class="case-steps" style="padding-top: 1rem;">
+                                            <h3 style="font-size:1rem; ">Steps to reproduce</h3>
+                                                    <div class="case-steps-case mt-4">
+                                <div class="steps">
+                                    <table class="table-steps" cellpadding="0" cellspacing="0">
+                                        <tbody><tr>
+                                            <th width="10%">Step</th>
+                                            <th width="30%">Action</th>
+                                            <th width="30%">Input data</th>
+                                            <th width="30%">Expected result</th>
+                                        </tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">1</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Go to page <a href="https://someprofileurl/preferences" target="_blank">https://someprofileurl/preferences</a></p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>Page is shown</p></td>
+</tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">2</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Сhoose 5 preferences and click Confirm button</p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>Error message “Please choose max 4 preferences”</p></td>
+</tr>
+                                                                            </tbody></table>
+                                </div>
+                            </div>
+                                                            </div>
+                    </div>
+    </div>
+</div>
+                    <div class="page">
+    <div>
+        <span style="font-size: 0.75rem; font-weight: 400; color: #686868">
+            PARALECT-15
+                    </span>
+        <h1 style="margin-bottom: 0.25rem;"> Successful addition of favourites (3 movies/series)</h1>
+        <div class="description"><p>Positive scenario for addition of favourites</p></div>
+        <div class="row">
+                                                                                                                                    <div class="col-3">
+                    <h3 style="font-size: 0.875rem;">Status</h3>
+                    <span class="param">
+                                                    Actual
+                                                </span>
+                </div>
+                            <div class="clearfix" style="padding-bottom: 0.75rem;"></div>
+                            <div class="clearfix"></div>
+                <div class="row" style="padding-top: 1rem;">
+                                                        </div>
+                        <div class="clearfix"></div>
+            <div style="padding-top: 1rem;">
+                                            </div>
+            <div class="clearfix"></div>
+                        <div class="clearfix"></div>
+                            <div class="case-steps" style="padding-top: 1rem;">
+                                            <h3 style="font-size:1rem; ">Steps to reproduce</h3>
+                                                    <div class="case-steps-case mt-4">
+                                <div class="steps">
+                                    <table class="table-steps" cellpadding="0" cellspacing="0">
+                                        <tbody><tr>
+                                            <th width="10%">Step</th>
+                                            <th width="30%">Action</th>
+                                            <th width="30%">Input data</th>
+                                            <th width="30%">Expected result</th>
+                                        </tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">1</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Go to page <a href="https://someprofileurl/favourites" target="_blank">https://someprofileurl/favourites</a></p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>Page is shown</p></td>
+</tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">2</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Add 3 movies/series to Favourites and click Confirm button</p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>User is allowed to setting time limit</p></td>
+</tr>
+                                                                            </tbody></table>
+                                </div>
+                            </div>
+                                                            </div>
+                    </div>
+    </div>
+</div>
+                    <div class="page">
+    <div>
+        <span style="font-size: 0.75rem; font-weight: 400; color: #686868">
+            PARALECT-20
+                    </span>
+        <h1 style="margin-bottom: 0.25rem;"> Successful addition of favourites (more than 3)</h1>
+        <div class="description"><p>Positive scenario for addition of favourites</p></div>
+        <div class="row">
+                                                                                                                                    <div class="col-3">
+                    <h3 style="font-size: 0.875rem;">Status</h3>
+                    <span class="param">
+                                                    Actual
+                                                </span>
+                </div>
+                            <div class="clearfix" style="padding-bottom: 0.75rem;"></div>
+                            <div class="clearfix"></div>
+                <div class="row" style="padding-top: 1rem;">
+                                                        </div>
+                        <div class="clearfix"></div>
+            <div style="padding-top: 1rem;">
+                                            </div>
+            <div class="clearfix"></div>
+                        <div class="clearfix"></div>
+                            <div class="case-steps" style="padding-top: 1rem;">
+                                            <h3 style="font-size:1rem; ">Steps to reproduce</h3>
+                                                    <div class="case-steps-case mt-4">
+                                <div class="steps">
+                                    <table class="table-steps" cellpadding="0" cellspacing="0">
+                                        <tbody><tr>
+                                            <th width="10%">Step</th>
+                                            <th width="30%">Action</th>
+                                            <th width="30%">Input data</th>
+                                            <th width="30%">Expected result</th>
+                                        </tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">1</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Go to page <a href="https://someprofileurl/favourites" target="_blank">https://someprofileurl/favourites</a></p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>Page is shown</p></td>
+</tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">2</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Add 10 movies/series to Favourites and click Confirm button</p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>User is allowed to setting time limit</p></td>
+</tr>
+                                                                            </tbody></table>
+                                </div>
+                            </div>
+                                                            </div>
+                    </div>
+    </div>
+</div>
+                    <div class="page">
+    <div>
+        <span style="font-size: 0.75rem; font-weight: 400; color: #686868">
+            PARALECT-16
+                    </span>
+        <h1 style="margin-bottom: 0.25rem;"> Unsuccessful addition of favourites</h1>
+        <div class="description"><p>Negative scenario for addition of favourites</p></div>
+        <div class="row">
+                                                                                                                                    <div class="col-3">
+                    <h3 style="font-size: 0.875rem;">Status</h3>
+                    <span class="param">
+                                                    Actual
+                                                </span>
+                </div>
+                            <div class="clearfix" style="padding-bottom: 0.75rem;"></div>
+                            <div class="clearfix"></div>
+                <div class="row" style="padding-top: 1rem;">
+                                                        </div>
+                        <div class="clearfix"></div>
+            <div style="padding-top: 1rem;">
+                                            </div>
+            <div class="clearfix"></div>
+                        <div class="clearfix"></div>
+                            <div class="case-steps" style="padding-top: 1rem;">
+                                            <h3 style="font-size:1rem; ">Steps to reproduce</h3>
+                                                    <div class="case-steps-case mt-4">
+                                <div class="steps">
+                                    <table class="table-steps" cellpadding="0" cellspacing="0">
+                                        <tbody><tr>
+                                            <th width="10%">Step</th>
+                                            <th width="30%">Action</th>
+                                            <th width="30%">Input data</th>
+                                            <th width="30%">Expected result</th>
+                                        </tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">1</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Go to page <a href="https://someprofileurl/favourites" target="_blank">https://someprofileurl/favourites</a></p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>Page is shown</p></td>
+</tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">2</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Add 2 movies/series to Favourites and click Confirm button</p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>Error message “Please add at least 3 movies/series to your Favourites”</p></td>
+</tr>
+                                                                            </tbody></table>
+                                </div>
+                            </div>
+                                                            </div>
+                    </div>
+    </div>
+</div>
+                    <div class="page">
+    <div>
+        <span style="font-size: 0.75rem; font-weight: 400; color: #686868">
+            PARALECT-18
+                    </span>
+        <h1 style="margin-bottom: 0.25rem;"> Successful time limit setting</h1>
+        <div class="description"><p>Positive scenario for time limit setting</p></div>
+        <div class="row">
+                                                                                                                                    <div class="col-3">
+                    <h3 style="font-size: 0.875rem;">Status</h3>
+                    <span class="param">
+                                                    Actual
+                                                </span>
+                </div>
+                            <div class="clearfix" style="padding-bottom: 0.75rem;"></div>
+                            <div class="clearfix"></div>
+                <div class="row" style="padding-top: 1rem;">
+                                                        </div>
+                        <div class="clearfix"></div>
+            <div style="padding-top: 1rem;">
+                                            </div>
+            <div class="clearfix"></div>
+                        <div class="clearfix"></div>
+                            <div class="case-steps" style="padding-top: 1rem;">
+                                            <h3 style="font-size:1rem; ">Steps to reproduce</h3>
+                                                    <div class="case-steps-case mt-4">
+                                <div class="steps">
+                                    <table class="table-steps" cellpadding="0" cellspacing="0">
+                                        <tbody><tr>
+                                            <th width="10%">Step</th>
+                                            <th width="30%">Action</th>
+                                            <th width="30%">Input data</th>
+                                            <th width="30%">Expected result</th>
+                                        </tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">1</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Go to page <a href="https://someprofileurl/timelimit" target="_blank">https://someprofileurl/timelimit</a></p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>Page is shown</p></td>
+</tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">2</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Set the time limit - 3 hours and click Confirm button</p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>User is allowed to the system</p></td>
+</tr>
+                                                                            </tbody></table>
+                                </div>
+                            </div>
+                                                            </div>
+                    </div>
+    </div>
+</div>
+                    <div class="page">
+    <div>
+        <span style="font-size: 0.75rem; font-weight: 400; color: #686868">
+            PARALECT-19
+                    </span>
+        <h1 style="margin-bottom: 0.25rem;"> Unsuccessful time limit setting</h1>
+        <div class="description"><p>Negative scenario for time limit setting</p></div>
+        <div class="row">
+                                                                                                                                    <div class="col-3">
+                    <h3 style="font-size: 0.875rem;">Status</h3>
+                    <span class="param">
+                                                    Actual
+                                                </span>
+                </div>
+                            <div class="clearfix" style="padding-bottom: 0.75rem;"></div>
+                            <div class="clearfix"></div>
+                <div class="row" style="padding-top: 1rem;">
+                                                        </div>
+                        <div class="clearfix"></div>
+            <div style="padding-top: 1rem;">
+                                            </div>
+            <div class="clearfix"></div>
+                        <div class="clearfix"></div>
+                            <div class="case-steps" style="padding-top: 1rem;">
+                                            <h3 style="font-size:1rem; ">Steps to reproduce</h3>
+                                                    <div class="case-steps-case mt-4">
+                                <div class="steps">
+                                    <table class="table-steps" cellpadding="0" cellspacing="0">
+                                        <tbody><tr>
+                                            <th width="10%">Step</th>
+                                            <th width="30%">Action</th>
+                                            <th width="30%">Input data</th>
+                                            <th width="30%">Expected result</th>
+                                        </tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">1</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Go to page <a href="https://someprofileurl/timeprofile" target="_blank">https://someprofileurl/timeprofile</a></p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>Page is shown</p></td>
+</tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">2</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Click Confirm button</p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>Error message “Please specify the time limit”</p></td>
+</tr>
+                                                                            </tbody></table>
+                                </div>
+                            </div>
+                                                            </div>
+                    </div>
+    </div>
+</div>
+                    <div class="page">
+    <div>
+        <span style="font-size: 0.75rem; font-weight: 400; color: #686868">
+            PARALECT-21
+                    </span>
+        <h1 style="margin-bottom: 0.25rem;"> Checking the correct work of the time limit</h1>
+        <div class="description"><p>Positive scenario for time limit working</p></div>
+        <div class="row">
+                                                                                                                                    <div class="col-3">
+                    <h3 style="font-size: 0.875rem;">Status</h3>
+                    <span class="param">
+                                                    Actual
+                                                </span>
+                </div>
+                            <div class="clearfix" style="padding-bottom: 0.75rem;"></div>
+                            <div class="clearfix"></div>
+                <div class="row" style="padding-top: 1rem;">
+                                                        </div>
+                        <div class="clearfix"></div>
+            <div style="padding-top: 1rem;">
+                                            </div>
+            <div class="clearfix"></div>
+                        <div class="clearfix"></div>
+                            <div class="case-steps" style="padding-top: 1rem;">
+                                            <h3 style="font-size:1rem; ">Steps to reproduce</h3>
+                                                    <div class="case-steps-case mt-4">
+                                <div class="steps">
+                                    <table class="table-steps" cellpadding="0" cellspacing="0">
+                                        <tbody><tr>
+                                            <th width="10%">Step</th>
+                                            <th width="30%">Action</th>
+                                            <th width="30%">Input data</th>
+                                            <th width="30%">Expected result</th>
+                                        </tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">1</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Go to page <a href="https://someprofileurl/timelimit" target="_blank">https://someprofileurl/timelimit</a></p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>Page is shown</p></td>
+</tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">2</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Set the time limit - 1 hours and click Confirm button</p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>User is allowed to the system</p></td>
+</tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">3</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Log out</p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"></td>
+</tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">4</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Log in</p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"></td>
+</tr>
+                                                                                    <tr>
+    <td style="font-size: 0.875rem;">5</td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"><p>Use the system for 1 hour</p></td>
+    <td style="padding-right: 1rem; font-size: 0.875rem; word-break: break-all;"></td>
+    <td style="font-size: 0.875rem; word-break: break-all;"><p>Info message: "Time limit expired"</p></td>
+</tr>
+                                                                            </tbody></table>
+                                </div>
+                            </div>
+                                                            </div>
+                    </div>
+    </div>
+</div>
+            
+
+</body></html>
